@@ -34,7 +34,6 @@ Include the generated bundle (located in the `/dist` folder) after the default H
   configure:function(){a[d]._c.push(arguments)}};var j=d.toLowerCase();a[j]=a[j]||{_c:[],configure:function(){a[j]._c.push(arguments)}}})
   (window,document,"//webprovisions-labs.humany.net/skeleton-callback/embed.js","Humany","script");
 </script>
-<script src="skeleton-callback-plugin-js"></script>
 <!-- End Humany -->
-<script src="skeleton-chat-plugin.js"></script>
+<script src="skeleton-callback-plugin-js"></script>
 ```
