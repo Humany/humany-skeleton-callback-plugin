@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "humany-skeleton-callback-plugin",
+  "version": "1.0.0-beta.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "start-dev": "node src/server/server.js",
+    "build": ".\\node_modules\\.bin\\webpack --mode production",
+    "build-dev": ".\\node_modules\\.bin\\webpack --mode development"
+  },
+  "dependencies": {
+    "@humany/widget-adapters": "^1.0.5",
+    "@humany/widget-callback": "^1.0.0-alpha.0",
+    "@humany/widget-core": "^1.0.3",
+    "@humany/widget-plugins": "^1.0.4",
+    "babel-regenerator-runtime": "^6.5.0",
+    "classnames": "^2.2.5",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.1",
+    "mini-css-extract-plugin": "^0.4.4",
+    "node-sass": "^4.9.3",
+    "openport": "^0.0.5",
+    "opn": "^5.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "4.16.5",
+    "webpack-cli": "^2.0.8",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
