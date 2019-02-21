@@ -10,7 +10,7 @@ export default class SkeletonCallbackPlugin extends Plugin {
     this.clientApi.getDates();
 
     const callbackPlatformSettings = {
-      clientName: 'skeleton.callback.eng',
+      adapterClientName: 'skeleton.callback.eng',
       maxAvailableDates: 14,
       minuteInterval: 10,
       texts: {
