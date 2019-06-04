@@ -19,7 +19,7 @@ npm run build-dev
 ```
 5. Dev environment
 ```
-npm run start-dev
+npm run start
 ```
 
 This will launch your browser and redirect to a simple server where you can see the plugin in action, which will respons on changes you make to the code.
