@@ -10,10 +10,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "@humany/widget-adapters": "^1.1.7",
     "@humany/widget-callback": "^1.1.0",
     "@humany/widget-core": "^1.0.5",
-    "@humany/widget-plugins": "^1.0.4",
     "babel-regenerator-runtime": "^6.5.0"
   },
   "devDependencies": {
